@@ -1,30 +1,42 @@
-<html>
-    <head>
-        <title>Food Order Website - Home Page</title>
-
-        <link rel="stylesheet" href="../css/admin.css">
-    </head>
-    
-    <body>
-        <!-- Menu Section Starts  -->
-        <div class="menu">
-            <div class="wrapper">
-                Menu goes here
-            </div>
-            
-        </div>   
-        <!-- Menu Section Ends  -->
+<?php
+    include('partials/menu.php');
+?>
     
         <!-- Main Content Section Starts  -->
         <div class="main-content">
-            Main content goes here
+            <div class="wrapper">
+                <h1>DASHBOARD</h1>
+
+                <div class="col-4 text-center">
+                    <h1>5</h1>
+                    <br>
+                    Categories
+                </div>
+
+                <div class="col-4 text-center">
+                    <h1>5</h1>
+                    <br>
+                    Categories
+                </div>
+
+                <div class="col-4 text-center">
+                    <h1>5</h1>
+                    <br>
+                    Categories
+                </div>
+
+                <div class="col-4 text-center">
+                    <h1>5</h1>
+                    <br>
+                    Categories
+                </div>
+
+                <div class="clearfix"></div>
+            </div>
         </div>
         <!-- Main Content Section Ends  -->
 
-        <!-- Footer Section Starts  -->
-        <div class="footer">
-            Footer goes here
-        </div>
-        <!-- Footer Section Ends  -->
-    </body>
-</html>
+
+<?php
+    include('partials/footer.php');
+?>
